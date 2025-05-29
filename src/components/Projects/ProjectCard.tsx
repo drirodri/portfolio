@@ -48,7 +48,7 @@ export default function ProjectCard({
           )}
           {deploy && (
             <button
-              className="btn btn-primary"
+              className="btn btn-secondary"
               onClick={() => openInNewTab(deploy)}
               type="button"
             >
