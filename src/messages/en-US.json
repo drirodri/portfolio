@@ -6,13 +6,14 @@
   },
   "Projects": {
     "title": "My Projects",
+    "lastUpdated": "Last updated",
     "project1": {
-      "title": "My Project",
-      "description": "A brief description of my project."
+      "title": "Pixel Art",
+      "description": "A simple practice project for DOM manipulation."
     },
     "project2": {
-      "title": "Another Project",
-      "description": "A brief description of another project."
+      "title": "Portfolio",
+      "description": "The repository of this portfolio, built with React and TypeScript."
     }
   }
 }
