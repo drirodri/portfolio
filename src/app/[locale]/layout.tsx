@@ -23,7 +23,7 @@ export default async function RootLayout({
   }
 
   return (
-    <html lang={locale}>
+    <html lang={locale} data-theme="pastel">
       <head></head>
       <body>
         <ClientThemeProvider>

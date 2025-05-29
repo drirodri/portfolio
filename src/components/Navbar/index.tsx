@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import ThemeSwitcher from "../ThemeSwitcher";
 
 export default function Navbar() {
   const t = useTranslations("Navbar");
@@ -19,6 +20,7 @@ export default function Navbar() {
           <li>
             <a href="#contact">{t("contact")}</a>
           </li>
+          <ThemeSwitcher />
         </ul>
       </div>
     </div>
