@@ -12,10 +12,12 @@ export const theme = {
     colorForeground: "--color-foreground",
     fontSans: "--font-sans",
     fontMono: "--font-mono",
+    fontPoppins: "--font-poppins",
   },
   fonts: {
     geistSans: "var(--font-geist-sans), Arial, Helvetica, sans-serif",
     geistMono: "var(--font-geist-mono), monospace",
+    poppins: "var(--font-poppins), Arial, Helvetica, sans-serif",
   },
   media: {
     prefersDark: "@media (prefers-color-scheme: dark)",

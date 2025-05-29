@@ -45,8 +45,11 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
         "--foreground",
         dark ? theme.colors.foregroundDark : theme.colors.foreground
       );
-      root.style.setProperty("--font-sans", theme.fonts.geistSans);
-      root.style.setProperty("--font-mono", theme.fonts.geistMono);
+      // Set --font-poppins to the raw font family string, not a CSS variable reference
+      root.style.setProperty(
+        "--font-poppins",
+        "Poppins, Arial, Helvetica, sans-serif"
+      );
     };
 
     const handleChange = () => {
