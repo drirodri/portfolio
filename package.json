@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "daisyui": "^5.0.42",
+    "devicon": "^2.16.0",
     "next": "15.3.2",
     "next-intl": "^4.1.0",
     "react": "^19.0.0",
