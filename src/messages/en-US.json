@@ -3,5 +3,16 @@
     "about": "About",
     "projects": "Projects",
     "contact": "Contact"
+  },
+  "Projects": {
+    "title": "My Projects",
+    "project1": {
+      "title": "My Project",
+      "description": "A brief description of my project."
+    },
+    "project2": {
+      "title": "Another Project",
+      "description": "A brief description of another project."
+    }
   }
 }

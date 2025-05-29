@@ -3,5 +3,16 @@
     "about": "Sobre",
     "projects": "Projetos",
     "contact": "Contato"
+  },
+  "Projects": {
+    "title": "Meus Projetos",
+    "project1": {
+      "title": "Meu Projeto",
+      "description": "Uma breve descrição do meu projeto."
+    },
+    "project2": {
+      "title": "Outro Projeto",
+      "description": "Uma breve descrição de outro projeto."
+    }
   }
 }

@@ -1,0 +1,14 @@
+[
+  {
+    "key": "project1",
+    "image": "/pixel-art.jpg",
+    "github": "https://github.com/yourusername/project1",
+    "deploy": "https://project1.vercel.app"
+  },
+  {
+    "key": "project2",
+    "image": "/pixel-art.jpg",
+    "github": "https://github.com/yourusername/project2",
+    "deploy": "https://project2.vercel.app"
+  }
+]
