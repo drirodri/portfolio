@@ -4,13 +4,13 @@
     "image": "/pixel-art.jpg",
     "github": "https://github.com/drirodri/pixel-art",
     "deploy": "https://pixel-art-ten.vercel.app",
-    "techs": ["HTML", "CSS", "JavaScript"]
+    "techs": ["html", "css", "javascript"]
   },
   {
     "key": "project2",
     "image": null,
     "github": "https://github.com/drirodri/portfolio",
     "deploy": null,
-    "techs": ["React", "TypeScript", "NextJS", "Tailwind CSS"]
+    "techs": ["react", "typescript", "nextjs", "css"]
   }
 ]

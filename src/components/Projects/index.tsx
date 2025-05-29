@@ -12,11 +12,12 @@ export default function Projects() {
         {projects.map((project, idx) => (
           <ProjectCard
             key={idx}
-            image={project.image}
+            image={project.image ?? ""}
             title={t(`${project.key}.title`)}
             description={t(`${project.key}.description`)}
             github={project.github}
-            deploy={project.deploy}
+            deploy={project.deploy ?? ""}
+            techs={project.techs}
           />
         ))}
       </div>
