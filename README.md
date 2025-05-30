@@ -3,7 +3,7 @@
 Welcome! This is my personal portfolio, built with [Next.js](https://nextjs.org), to showcase my projects, skills, and contact information.  
 **Note: This portfolio is a work in progress. Some features and sections may be incomplete or subject to change.**
 
-This site is intended for recruiters and visitors interested in learning more about my work, experience, and technical background.
+This site is intended for anyone interested in learning more about my work, experience, and technical background.
 
 ## 🚀 Features
 
@@ -13,7 +13,7 @@ This site is intended for recruiters and visitors interested in learning more ab
 - **Tailwind CSS** and [DaisyUI](https://daisyui.com/) for styling and components
 - **Theme switcher** (light/dark mode)
 - **Devicon** for technology and social icons
-- **Responsive layout** for all devices (*still being improved*)
+- **Responsive layout** for all devices (_still being improved_)
 - **Projects section** with dynamic data from JSON
 - **Contact section** with social links (GitHub, LinkedIn, Email)
 - **Custom hooks** (e.g., GitHub repo last updated)
@@ -61,6 +61,7 @@ public/
 ## 🖥️ Getting Started
 
 1. **Install dependencies:**
+
    ```bash
    npm install
    # or
@@ -68,6 +69,7 @@ public/
    ```
 
 2. **Run the development server:**
+
    ```bash
    npm run dev
    # or

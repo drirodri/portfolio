@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { useRepoUpdatedAt } from "@/hooks/useRepoUpdatedAt";
 import { useTranslations } from "next-intl";
 import TechStack from "./TechStack";
 
@@ -12,6 +11,7 @@ interface ProjectCardProps {
   github?: string;
   deploy?: string;
   techs: string[];
+  updatedAt?: string | null;
 }
 
 export default function ProjectCard({
@@ -21,6 +21,7 @@ export default function ProjectCard({
   github,
   deploy,
   techs,
+  updatedAt,
 }: ProjectCardProps) {
   // Helper to open links in a new tab
   const openInNewTab = (url: string) => {
@@ -28,8 +29,6 @@ export default function ProjectCard({
   };
 
   const t = useTranslations("Projects");
-
-  const updatedAt = useRepoUpdatedAt(github);
 
   return (
     <div className="card bg-base-100 w-96 shadow-sm">
