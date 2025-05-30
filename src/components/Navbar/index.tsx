@@ -24,8 +24,8 @@ export default function Navbar() {
       <div className="flex-1">
         <a className="btn btn-ghost text-xl hidden md:inline">Adriano</a>
       </div>
-      <div className="flex-none">
-        <ul className="menu menu-horizontal px-1">
+      <div className="flex-none w-full md:w-auto">
+        <ul className="menu menu-horizontal px-1 flex justify-center md:justify-end w-full">
           <li>
             <a href="#about" onClick={(e) => scrollToSection(e, "about")}>
               {t("about")}

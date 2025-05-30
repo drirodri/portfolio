@@ -23,7 +23,6 @@ export default function ProjectCard({
   techs,
   updatedAt,
 }: ProjectCardProps) {
-  // Helper to open links in a new tab
   const openInNewTab = (url: string) => {
     window.open(url, "_blank", "noopener,noreferrer");
   };
