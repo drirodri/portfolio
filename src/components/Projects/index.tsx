@@ -6,7 +6,7 @@ export default function Projects() {
   const t = useTranslations("Projects");
 
   return (
-    <div
+    <section
       id="projects"
       className="flex flex-col items-center justify-center p-4"
     >
@@ -24,6 +24,6 @@ export default function Projects() {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 }

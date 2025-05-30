@@ -25,5 +25,11 @@
       "title": "Dri-Commerce",
       "description": "Um projeto de e-commerce construído com React, TypeScript e CSS. Consumindo a API do Mercado Livre. #DEPRECATED"
     }
+  },
+  "Contact": {
+    "title": "Entre em Contato",
+    "description": "Sinta-se à vontade para entrar em contato comigo nas minhas redes sociais:",
+    "email": "E-mail",
+    "linkedin": "LinkedIn"
   }
 }
