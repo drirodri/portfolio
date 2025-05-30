@@ -1,9 +1,22 @@
+"use client";
 import { useTranslations } from "next-intl";
 import ThemeSwitcher from "../Switchers/ThemeSwitcher.jsx";
-import LanguageSwitcher from "../Switchers/LanguageSwitcher.jsx";
+import { usePathname, useRouter } from "next/navigation";
+import { routing } from "@/i18n/routing";
 
 export default function Navbar() {
   const t = useTranslations("Navbar");
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const currentLocale = pathname.split("/")[1];
+
+  const handleLanguageChange = (newLocale: string) => {
+    const segments = pathname.split("/");
+    segments[1] = newLocale;
+    const newPath = segments.join("/") || "/";
+    router.push(newPath);
+  };
 
   return (
     <div className="navbar bg-base-100 shadow-sm">
@@ -21,8 +34,27 @@ export default function Navbar() {
           <li>
             <a href="#contact">{t("contact")}</a>
           </li>
+          <li>
+            <details>
+              <summary>{t("language")}</summary>
+              <ul className="p-2">
+                {routing.locales.map((locale) => (
+                  <li key={locale}>
+                    <a
+                      href="#"
+                      onClick={() => {
+                        handleLanguageChange(locale);
+                      }}
+                      className={locale === currentLocale ? "font-bold" : ""}
+                    >
+                      {locale === "en-US" ? "English" : "Português"}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          </li>
           <ThemeSwitcher />
-          <LanguageSwitcher />
         </ul>
       </div>
     </div>
