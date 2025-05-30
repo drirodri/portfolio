@@ -6,21 +6,23 @@ export default function About() {
 
   return (
     <section id="about" className="flex items-center justify-center">
-      <div className="flex flex-row items-center gap-8 p-4">
-        <div className="avatar">
-          <div className="w-100 rounded-full">
+      <div className="flex flex-col md:flex-row items-center gap-8 p-4">
+        <div className="avatar mb-6 md:mb-0">
+          <div className="w-48 md:w-100 rounded-full">
             <Image
               src="/me.jpeg"
               alt="Me"
-              width={350}
-              height={350}
+              width={192}
+              height={192}
               className="rounded-full"
             />
           </div>
         </div>
-        <div className="flex flex-col items-start">
-          <h1 className="text-3xl font-bold mb-4">{t("greeting")}</h1>
-          <p className="max-w-100">{t("description")}</p>{" "}
+        <div className="flex flex-col items-center md:items-start text-center md:text-left">
+          <h1 className="text-2xl md:text-3xl font-bold mb-4">
+            {t("greeting")}
+          </h1>
+          <p className="max-w-xs md:max-w-100">{t("description")}</p>
         </div>
       </div>
     </section>
