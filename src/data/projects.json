@@ -4,7 +4,7 @@
     "image": "/pixel-art.jpg",
     "github": "https://github.com/drirodri/pixel-art",
     "deploy": "https://pixel-art-ten.vercel.app",
-    "techs": ["html", "css", "javascript"]
+    "techs": ["javascript", "html", "css"]
   },
   {
     "key": "project2",
@@ -12,5 +12,12 @@
     "github": "https://github.com/drirodri/portfolio",
     "deploy": null,
     "techs": ["react", "typescript", "nextjs", "css"]
+  },
+  {
+    "key": "project3",
+    "image": null,
+    "github": "https://github.com/drirodri/dri-commerce",
+    "deploy": "https://dri-commerce.netlify.app",
+    "techs": ["react", "typescript", "css"]
   }
 ]

@@ -1,8 +1,14 @@
 {
+  "About": {
+    "title": "About Me",
+    "greeting": "Hello, my name is Adriano",
+    "description": "I am a software developer passionate about building applications. I enjoy working with React, TypeScript and Java. I am always eager to learn new technologies."
+  },
   "Navbar": {
     "about": "About",
     "projects": "Projects",
-    "contact": "Contact"
+    "contact": "Contact",
+    "language": "Language"
   },
   "Projects": {
     "title": "My Projects",
@@ -14,6 +20,10 @@
     "project2": {
       "title": "Portfolio",
       "description": "The repository of this portfolio, built with React and TypeScript."
+    },
+    "project3": {
+      "title": "Dri-Commerce",
+      "description": "An e-commerce project built with React, TypeScript and CSS. Consuming Mercado Livre API. #DEPRECATED"
     }
   }
 }

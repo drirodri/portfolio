@@ -1,8 +1,14 @@
 {
+  "About": {
+    "title": "Sobre Mim",
+    "greeting": "Olá, meu nome é Adriano",
+    "description": "Sou um desenvolvedor de software apaixonado por construir aplicações. Gosto de trabalhar com React, TypeScript e Java, estou sempre ansioso para aprender novas tecnologias."
+  },
   "Navbar": {
     "about": "Sobre",
     "projects": "Projetos",
-    "contact": "Contato"
+    "contact": "Contato",
+    "language": "Idioma"
   },
   "Projects": {
     "title": "Meus Projetos",
@@ -14,6 +20,10 @@
     "project2": {
       "title": "Portfólio",
       "description": "O repositório deste portfólio, construído com React e TypeScript."
+    },
+    "project3": {
+      "title": "Dri-Commerce",
+      "description": "Um projeto de e-commerce construído com React, TypeScript e CSS. Consumindo a API do Mercado Livre. #DEPRECATED"
     }
   }
 }
