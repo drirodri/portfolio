@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import ThemeSwitcher from "../Switchers/ThemeSwitcher.jsx";
 import { usePathname, useRouter } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import { scrollToSection } from "@/utils/scrollToSection";
 
 export default function Navbar() {
   const t = useTranslations("Navbar");
@@ -26,13 +27,19 @@ export default function Navbar() {
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a href="#about">{t("about")}</a>
+            <a href="#about" onClick={(e) => scrollToSection(e, "about")}>
+              {t("about")}
+            </a>
           </li>
           <li>
-            <a href="#projects">{t("projects")}</a>
+            <a href="#projects" onClick={(e) => scrollToSection(e, "projects")}>
+              {t("projects")}
+            </a>
           </li>
           <li>
-            <a href="#contact">{t("contact")}</a>
+            <a href="#contact" onClick={(e) => scrollToSection(e, "contact")}>
+              {t("contact")}
+            </a>
           </li>
           <li>
             <details>

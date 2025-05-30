@@ -5,7 +5,7 @@ export default function About() {
   const t = useTranslations("About");
 
   return (
-    <div className="flex items-center justify-center">
+    <div id="about" className="flex items-center justify-center">
       <div className="flex flex-row items-center gap-8 p-4">
         <div className="avatar">
           <div className="w-100 rounded-full">
