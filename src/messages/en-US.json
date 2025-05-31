@@ -2,7 +2,7 @@
   "About": {
     "title": "About Me",
     "greeting": "Hello, my name is Adriano",
-    "description": "I am a software developer passionate about building applications. I enjoy working with React, TypeScript, and Java. I am always eager to learn new technologies."
+    "description": "I am a software developer passionate about building applications. I enjoy working with React, TypeScript, and Java, and I am always eager to learn new technologies."
   },
   "Navbar": {
     "about": "About",
@@ -31,5 +31,39 @@
     "description": "Feel free to reach out to me on my social networks, or you can also access my resume <resume>here</resume>.",
     "email": "Email",
     "linkedin": "LinkedIn"
+  },
+  "Timeline": {
+    "title": "Timeline",
+    "description": "Here is a summary of my professional and academic journey.",
+    "Bachelor's Degree in English Language and Literature": {
+      "year": "2017 to 2023",
+      "month": "July",
+      "tech": "Bachelor's Degree in English Language and Literature",
+      "note": "UFRJ - Federal University of Rio de Janeiro"
+    },
+    "Career shift to Software Development": {
+      "year": "2024",
+      "month": "",
+      "tech": "Career shift to Software Development",
+      "note": "Enrolled in CS50 through Educar Foundation: Introduction to Computer Science from Harvard."
+    },
+    "Estácio": {
+      "year": "2024",
+      "month": "June",
+      "tech": "Analysis and Systems Development",
+      "note": "Estácio – Expected graduation: 2026."
+    },
+    "LIFE Empreendimentos": {
+      "year": "2024",
+      "month": "August",
+      "tech": "Intern at LIFE Empreendimentos",
+      "note": "Responsible for customer service, managing spreadsheets in Excel and Google Sheets, and account auditing."
+    },
+    "CIANDT": {
+      "year": "2025",
+      "month": "March",
+      "tech": "Software Developer Intern at CI&T",
+      "note": "Currently working with React, TypeScript, NodeJS, and NestJS, focusing on software development and improving technical skills."
+    }
   }
 }

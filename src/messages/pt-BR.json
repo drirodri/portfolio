@@ -31,5 +31,39 @@
     "description": "Sinta-se à vontade para entrar em contato comigo nas minhas redes sociais, ou você também pode acessar meu currículo <resume>aqui</resume>.",
     "email": "E-mail",
     "linkedin": "LinkedIn"
+  },
+  "Timeline": {
+    "title": "Linha do Tempo",
+    "description": "Aqui está um resumo da minha trajetória profissional e acadêmica.",
+    "Bachelor's Degree in English Language and Literature": {
+      "year": "2017 a 2023",
+      "month": "Julho",
+      "tech": "Bacharelado em Letras - Língua Inglesa e Literaturas",
+      "note": "UFRJ - Universidade Federal do Rio de Janeiro"
+    },
+    "Career shift to Software Development": {
+      "year": "2024",
+      "month": "",
+      "tech": "Transição de carreira para Desenvolvimento de Software",
+      "note": "Matriculado no CS50 pela Fundação Educar: Introdução à Ciência da Computação de Harvard."
+    },
+    "Estácio": {
+      "year": "2024",
+      "month": "Junho",
+      "tech": "Análise e Desenvolvimento de Sistemas",
+      "note": "Estácio – Conclusão prevista para 2026."
+    },
+    "LIFE Empreendimentos": {
+      "year": "2024",
+      "month": "Agosto",
+      "tech": "Estagiário na LIFE Empreendimentos",
+      "note": "Responsável pelo atendimento ao público, alimentação de planilhas no Excel e Google Sheets, além de auditoria de contas."
+    },
+    "CIANDT": {
+      "year": "2025",
+      "month": "Março",
+      "tech": "Estagiário de Desenvolvimento na CI&T",
+      "note": "Atualmente trabalhando com React, TypeScript, NodeJS e NestJS, com foco em desenvolvimento de software e aprimoramento das habilidades técnicas."
+    }
   }
 }
