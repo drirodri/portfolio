@@ -40,11 +40,11 @@ export default function ProjectCard({
           className="object-cover w-full h-48"
         />
       </figure>
-      <div className="card-body">
+      <div className="card-body h-64 flex flex-col">
         <h2 className="card-title">{title}</h2>
         <p>{description}</p>
         <TechStack techs={techs} />
-        <div className="card-actions justify-end">
+        <div className="card-actions justify-end mt-auto">
           {updatedAt && (
             <p className="text-xs text-gray-500">
               {t("lastUpdated")}: {new Date(updatedAt).toLocaleDateString()}
