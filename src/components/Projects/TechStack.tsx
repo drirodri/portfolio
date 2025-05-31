@@ -18,17 +18,23 @@ const iconMap: Record<string, string> = {
 };
 
 interface TechStackProps {
-  techs?: string[];
+  techs: string[];
+  className?: string;
+  iconsize?: number;
 }
 
-const TechStack: React.FC<TechStackProps> = ({ techs = [] }) => (
-  <div className="flex gap-2 my-2">
+const TechStack: React.FC<TechStackProps> = ({
+  techs = [],
+  className = "",
+  iconsize = 30,
+}) => (
+  <div className={`flex gap-2 my-2 ${className}`}>
     {techs.map((tech) => {
       const iconClass = iconMap[tech];
       return (
         <span key={tech} title={tech} className="inline-block align-middle">
           {iconClass ? (
-            <i className={iconClass} style={{ fontSize: 24 }} />
+            <i className={iconClass} style={{ fontSize: iconsize }} />
           ) : (
             tech
           )}
