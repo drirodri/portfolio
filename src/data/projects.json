@@ -11,7 +11,7 @@
     "image": null,
     "github": "https://github.com/drirodri/portfolio",
     "deploy": null,
-    "techs": ["react", "typescript", "nextjs", "css"]
+    "techs": ["react", "typescript", "nextjs", "tailwindcss"]
   },
   {
     "key": "project3",
