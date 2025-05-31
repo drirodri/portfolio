@@ -1,3 +1,6 @@
+import Image from "next/image";
+import mailIcon from "../../../public/mail.svg";
+
 export default function Socials() {
   return (
     <div className="flex gap-6 mt-2">
@@ -18,7 +21,13 @@ export default function Socials() {
         <i className="devicon-linkedin-plain colored text-4xl"></i>
       </a>
       <a href="mailto:adriano.rsilva97@gmail.com" aria-label="Email">
-        <i className="devicon-google-plain colored text-4xl"></i>
+        <Image
+          src={mailIcon}
+          alt="Email"
+          width={36}
+          height={36}
+          style={{ minWidth: "2rem", minHeight: "2rem" }}
+        />
       </a>
     </div>
   );
