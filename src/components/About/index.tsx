@@ -1,11 +1,12 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import SectionContainer from "../SectionContainer/SectionContainer";
 
 export default function About() {
   const t = useTranslations("About");
 
   return (
-    <section id="about" className="flex items-center justify-center">
+    <SectionContainer id="about" className="flex items-center justify-center">
       <div className="flex flex-col md:flex-row items-center gap-8 p-4">
         <div className="avatar mb-6 md:mb-0">
           <div className="w-48 md:w-100 rounded-full">
@@ -25,6 +26,6 @@ export default function About() {
           <p className="max-w-xs md:max-w-100">{t("description")}</p>
         </div>
       </div>
-    </section>
+    </SectionContainer>
   );
 }

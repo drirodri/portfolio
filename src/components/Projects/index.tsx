@@ -3,6 +3,7 @@ import ProjectCard from "./ProjectCard";
 import projectsDataRaw from "@/data/projects.json";
 import { useTranslations } from "next-intl";
 import { useRepoUpdatedAt, Project } from "@/hooks/useRepoUpdatedAt";
+import SectionContainer from "../SectionContainer/SectionContainer";
 
 const projectsData = projectsDataRaw as Project[];
 
@@ -12,9 +13,9 @@ export default function Projects() {
   const sortedProjects = useRepoUpdatedAt(projectsData);
 
   return (
-    <section
+    <SectionContainer
       id="projects"
-      className="flex flex-col items-center justify-center p-1"
+      className="flex items-center justify-center p-1"
     >
       <h1 className="text-3xl font-bold mb-8">{t("title")}</h1>
       <div
@@ -43,6 +44,6 @@ export default function Projects() {
           </div>
         ))}
       </div>
-    </section>
+    </SectionContainer>
   );
 }

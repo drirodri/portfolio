@@ -1,14 +1,15 @@
 import { useTranslations } from "next-intl";
 import Socials from "./Socials";
+import SectionContainer from "../SectionContainer/SectionContainer";
 
 export default function Contact() {
   const t = useTranslations("Contact");
 
-  const resumeUrl =
-    "https://docs.google.com/document/d/1QECjqnPUg9O2m4A6IEK0RC3gSozoWjogOqkmOMvlXb8/edit?usp=sharing";
+  // const resumeUrl =
+  //   "https://docs.google.com/document/d/1QECjqnPUg9O2m4A6IEK0RC3gSozoWjogOqkmOMvlXb8/edit?usp=sharing";
 
   return (
-    <section id="contact" className="flex flex-col items-center p-4">
+    <SectionContainer id="contact">
       <h2 className="text-3xl font-bold mb-4">{t("title")}</h2>
       <p className="mb-4">
         {t.rich("description", {
@@ -26,6 +27,6 @@ export default function Contact() {
         })}
       </p>
       <Socials />
-    </section>
+    </SectionContainer>
   );
 }
