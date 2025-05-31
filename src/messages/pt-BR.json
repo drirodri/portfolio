@@ -29,6 +29,7 @@
   "Contact": {
     "title": "Entre em Contato",
     "description": "Sinta-se à vontade para entrar em contato comigo nas minhas redes sociais, ou você também pode acessar meu currículo <resume>aqui</resume>.",
+    "descriptionNoResume": "Sinta-se à vontade para entrar em contato comigo nas minhas redes sociais abaixo:",
     "email": "E-mail",
     "linkedin": "LinkedIn"
   },

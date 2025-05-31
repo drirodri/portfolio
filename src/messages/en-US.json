@@ -29,6 +29,7 @@
   "Contact": {
     "title": "Contact Me",
     "description": "Feel free to reach out to me on my social networks, or you can also access my resume <resume>here</resume>.",
+    "descriptionNoResume": "Feel free to reach out to me on my social networks below:",
     "email": "Email",
     "linkedin": "LinkedIn"
   },
