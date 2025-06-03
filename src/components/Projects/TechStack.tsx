@@ -15,6 +15,8 @@ const iconMap: Record<string, string> = {
   c: "devicon-c-plain colored",
   spring: "devicon-spring-plain colored",
   tailwindcss: "devicon-tailwindcss-plain colored",
+  nestjs: "devicon-nestjs-plain colored",
+  postgresql: "devicon-postgresql-plain colored",
 };
 
 interface TechStackProps {
