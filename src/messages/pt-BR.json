@@ -24,6 +24,10 @@
     "project3": {
       "title": "Dri-Commerce",
       "description": "Um projeto de e-commerce construído com React, TypeScript e CSS, utilizando a API do Mercado Livre. #DEPRECATED"
+    },
+    "project4": {
+      "title": "Users API",
+      "description": "Um projeto de estudos em NestJS focado em autenticação, autorização e gerenciamento de usuários com JWT e PostgreSQL."
     }
   },
   "Contact": {

@@ -19,5 +19,12 @@
     "github": "https://github.com/drirodri/dri-commerce",
     "deploy": "https://dri-commerce.netlify.app",
     "techs": ["react", "typescript", "css"]
+  },
+  {
+    "key": "project4",
+    "image": null,
+    "github": "https://github.com/drirodri/users-api",
+    "deploy": null,
+    "techs": ["nestjs", "typescript", "postgresql"]
   }
 ]
